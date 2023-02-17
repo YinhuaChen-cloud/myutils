@@ -11,8 +11,7 @@ def int2Hex(num):
   # return bytes[::-1]  # return in little endian
   return bytes 
 
-print(int2Hex(-214747137))
-print(int2Hex(20))
-print(int2Hex(-20))
+import sys
 
+print(int2Hex(int(sys.argv[1])))
 
